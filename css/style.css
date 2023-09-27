@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(193, 86, 43);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.blogo{
+    width: 100px;
+}
