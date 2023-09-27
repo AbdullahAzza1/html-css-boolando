@@ -12,6 +12,9 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.info{
+    color: white;
+}
 .blogo{
     width: 100px;
 }
@@ -27,6 +30,7 @@ body{
     flex-direction: column;
     width: 300px;
     margin-right: 55px;
+    
 }
 .testo{
     font-size: 14px;
@@ -39,4 +43,24 @@ body{
 .prezzos {
     font-size: 14px;
     text-decoration: line-through;
+}
+.contenitorecard2{
+    width: 72%;
+    margin: 0 auto;
+    margin-top: 45px;
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.contenitorebasso{
+    background-color: rgb(38, 32, 69);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around; 
+    color: white;
+}
+
+.foto1:hover {
+    position: relative;
+    background-image: url(../img/1b.webp);
 }
